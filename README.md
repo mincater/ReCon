@@ -1,4 +1,5 @@
 # research-rag
+https://recon847382988.streamlit.app/
 
 A modular Retrieval-Augmented Generation (RAG) application: ingest PDF, DOCX, TXT, CSV, XLSX, and web documents → clean and chunk → embed locally → store in Qdrant → hybrid retrieve (dense vector + BM25 keyword search) → rerank → generate responses with citations via free-tier LLM APIs (Groq primary with Google Gemini Flash-Lite fallback), optionally augmented with live Tavily web search.
 

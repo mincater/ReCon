@@ -5,15 +5,8 @@ Cross-Encoder Reranking, Fallback Generation (Groq -> Gemini), and Tavily Web Se
 """
 
 import os
-import sys
 import tempfile
 from typing import Any, Dict, List
-
-# Ensure repository root is on sys.path so 'app.*' imports work on Streamlit Cloud
-_repo_root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-if _repo_root not in sys.path:
-    sys.path.insert(0, _repo_root)
-
 import streamlit as st
 
 from app.config import get_settings

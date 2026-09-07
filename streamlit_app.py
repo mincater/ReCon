@@ -1,4 +1,4 @@
-﻿"""Root entrypoint for Streamlit Community Cloud deployment."""
+"""Root entrypoint for Streamlit Community Cloud deployment."""
 
 import os
 import sys
@@ -10,5 +10,4 @@ if root_dir not in sys.path:
 
 from app.streamlit_app import main
 
-if __name__ == "__main__":
-    main()
+main()

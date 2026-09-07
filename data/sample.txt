@@ -1,0 +1,8 @@
+# Dense Retrieval and Hybrid Search in RAG Systems
+
+Modern Retrieval-Augmented Generation (RAG) combines semantic vector search with traditional keyword search.
+While dense retrieval using Sentence Transformers captures deep semantic meanings and synonyms, BM25 excels at exact keyword matching, acronyms, and product codes.
+
+In hybrid search, Reciprocal Rank Fusion (RRF) scores items from both retrieval methods to produce a robust combined ranking.
+Following retrieval, a cross-encoder reranker can evaluate candidate passages together with the query for superior precision.
+Finally, an LLM generates a comprehensive response backed by direct document citations.

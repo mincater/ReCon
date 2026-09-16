@@ -138,7 +138,3 @@ from app.ingestion.pipeline import ingest_document
 ```
 
 ---
-
-## Development Guidelines
-
-Please refer to [`AGENTS.md`](AGENTS.md) for non-negotiable rules, strict build order, memory budget constraints (~1GB RAM budget for Streamlit Community Cloud), and module interface contracts.
